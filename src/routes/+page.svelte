@@ -1,7 +1,7 @@
 <script lang="ts">
 	// Icons
 	const icons = {
-		logo: `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-blue-500"><path d="M12 2L14.5 9H22L16 13.5L18.5 21L12 16.5L5.5 21L8 13.5L2 9H9.5L12 2Z" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>`, // Placeholder for flower
+		logo: `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.99251 12.196C6.85314 12.5757 6.62925 12.9208 6.33682 13.2067H6.33835C6.00191 13.5351 5.58566 13.7756 5.12816 13.9059C4.67065 14.0362 4.18671 14.0522 3.72118 13.9523C3.25564 13.8524 2.82357 13.64 2.46501 13.3345C2.10645 13.0291 1.83299 12.6406 1.66998 12.2051C1.50697 11.7696 1.45969 11.3012 1.5325 10.8432C1.60532 10.3852 1.79587 9.95244 2.08653 9.58516C2.37718 9.21781 2.75852 8.9277 3.1952 8.74177C3.63188 8.55585 4.10979 8.48002 4.58462 8.52142L4.57074 8.50792C5.0567 8.54782 5.54575 8.48407 6.00378 8.32124C6.4618 8.15846 6.87776 7.90043 7.2226 7.56521C7.56746 7.22998 7.83285 6.82564 8.00036 6.38041C8.16786 5.93517 8.23344 5.45976 8.1924 4.98737L8.20628 5.00087C8.15181 4.43594 8.27796 3.86844 8.56753 3.37575C8.85701 2.88307 9.29579 2.48919 9.82407 2.24782C10.3523 2.00645 10.9443 1.92933 11.5192 2.02701C12.0942 2.12467 12.6243 2.39237 13.037 2.79358C13.4497 3.19479 13.7251 3.70999 13.8256 4.26892C13.926 4.82785 13.8467 5.4033 13.5984 5.9168C13.3501 6.4303 12.9449 6.85685 12.4381 7.13828C11.9313 7.41971 11.3474 7.54233 10.7663 7.4894L10.781 7.5029C10.2949 7.46279 9.80563 7.52632 9.34741 7.68904C8.88919 7.85176 8.47309 8.10975 8.12805 8.44499C7.78301 8.78025 7.51742 9.18466 7.34983 9.63001C7.18224 10.0754 7.11669 10.551 7.15774 11.0235L7.14309 11.01C7.1833 11.4112 7.13189 11.8162 6.99251 12.196ZM11.5077 14.7121L11.493 14.6986C11.9061 14.739 12.3232 14.6897 12.7143 14.5543C13.1053 14.4188 13.4605 14.2007 13.7542 13.9154C14.0477 13.6302 14.2726 13.285 14.4121 12.905C14.5518 12.525 14.6028 12.1196 14.5615 11.718L14.5762 11.7315C14.5351 11.2591 14.6007 10.7838 14.7681 10.3385C14.9356 9.89327 15.2011 9.48893 15.5459 9.15368C15.8908 8.8185 16.3068 8.56042 16.7648 8.39767C17.2228 8.23481 17.7118 8.17111 18.1978 8.21099L18.1832 8.19749C18.7645 8.25059 19.3485 8.12801 19.8556 7.84656C20.3627 7.56511 20.7681 7.13845 21.0165 6.62479C21.265 6.11114 21.3444 5.53548 21.2439 4.97634C21.1435 4.4172 20.868 3.9018 20.4551 3.50044C20.0422 3.09909 19.512 2.8313 18.9368 2.73364C18.3616 2.63596 17.7695 2.71315 17.241 2.95467C16.7126 3.19618 16.2737 3.59027 15.9842 4.08319C15.6946 4.57609 15.5685 5.14383 15.6232 5.70895L15.6093 5.6947C15.6504 6.16712 15.585 6.64259 15.4175 7.08788C15.2501 7.53318 14.9846 7.93758 14.6398 8.27287C14.2949 8.60805 13.8789 8.86612 13.4208 9.02888C12.9627 9.19163 12.4736 9.25523 11.9876 9.21526L12.0015 9.22951C11.5885 9.18908 11.1713 9.23836 10.7803 9.37381C10.3893 9.50919 10.034 9.72744 9.74039 10.0127C9.44674 10.2979 9.22199 10.6431 9.08234 11.0231C8.94276 11.4031 8.89176 11.8085 8.93304 12.2101L8.91915 12.1966C8.96005 12.6689 8.89439 13.1443 8.72688 13.5895C8.5593 14.0346 8.29389 14.4389 7.94908 14.7741C7.60425 15.1093 7.18835 15.3673 6.73039 15.5302C6.27242 15.693 5.78342 15.7569 5.29749 15.7171L5.31138 15.7306C4.73003 15.6775 4.14599 15.8001 3.63892 16.0815C3.13186 16.363 2.72644 16.7896 2.478 17.3033C2.22954 17.817 2.15013 18.3926 2.25061 18.9518C2.35109 19.5109 2.62657 20.0263 3.03945 20.4276C3.45234 20.829 3.98253 21.0968 4.55773 21.1944C5.13293 21.2921 5.72512 21.2149 6.25353 20.9734C6.78193 20.7319 7.22085 20.3379 7.51038 19.8449C7.79994 19.352 7.92601 18.7843 7.87139 18.2191L7.88605 18.2326C7.845 17.7602 7.91058 17.2849 8.07809 16.8396C8.24551 16.3944 8.511 15.99 8.85581 15.6548C9.20069 15.3196 9.61664 15.0615 10.0746 14.8988C10.5327 14.7359 11.0217 14.6722 11.5077 14.7121ZM17.1996 10.7633C16.9071 11.0493 16.6832 11.3944 16.5437 11.7741C16.4042 12.1538 16.3526 12.5587 16.3925 12.9601L16.3786 12.9466C16.4197 13.419 16.3541 13.8944 16.1866 14.3396C16.0191 14.7849 15.7537 15.1892 15.4089 15.5244C15.064 15.8596 14.648 16.1177 14.19 16.2804C13.732 16.4433 13.2429 16.507 12.757 16.4671L12.7708 16.4806C12.1896 16.4281 11.6057 16.551 11.0989 16.8328C10.5921 17.1145 10.1871 17.5414 9.93902 18.0551C9.69097 18.5689 9.61188 19.1444 9.71265 19.7035C9.81349 20.2625 10.0892 20.7777 10.5022 21.1788C10.9152 21.5799 11.4454 21.8474 12.0205 21.9448C12.5957 22.0423 13.1877 21.9649 13.716 21.7234C14.2443 21.4817 14.683 21.0877 14.9724 20.5947C15.2618 20.1018 15.3878 19.5342 15.3332 18.9692L15.3478 18.9827C15.3068 18.5103 15.3723 18.0349 15.5398 17.5896C15.7073 17.1444 15.9728 16.7401 16.3176 16.4048C16.6625 16.0696 17.0784 15.8115 17.5364 15.6488C17.9945 15.486 18.4835 15.4222 18.9695 15.4621L18.9548 15.4486C19.4296 15.4901 19.9076 15.4144 20.3444 15.2286C20.7811 15.0427 21.1625 14.7527 21.4533 14.3854C21.744 14.0181 21.9347 13.5854 22.0075 13.1274C22.0805 12.6694 22.0332 12.2009 21.8703 11.7653C21.7073 11.3298 21.4339 10.9413 21.0754 10.6358C20.7168 10.3303 20.2848 10.1178 19.8192 10.0179C19.3536 9.91795 18.8697 9.93385 18.4121 10.0641C17.9546 10.1945 17.5383 10.4349 17.2019 10.7633H17.1996Z" fill="currentColor"/></svg>`,
 		clock: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`,
 		arrowRight: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>`,
 		reflection: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>`,
@@ -34,302 +34,290 @@
 	<header class="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
 		<div class="flex items-center gap-2">
 			<!-- Logo Icon -->
-			<div class="text-blue-600">
-				<svg viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-					<path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM12 22C10.9 22 10 21.1 10 20C10 18.9 10.9 18 12 18C13.1 18 14 18.9 14 20C14 21.1 13.1 22 12 22ZM6 12C6 10.9 5.1 10 4 10C2.9 10 2 10.9 2 12C2 13.1 2.9 14 4 14C5.1 14 6 13.1 6 12ZM22 12C22 13.1 21.1 14 20 14C18.9 14 18 13.1 18 12C18 10.9 18.9 10 20 10C21.1 10 22 10.9 22 12ZM17.66 7.34C18.44 6.56 19.7 6.56 20.48 7.34C21.26 8.12 21.26 9.38 20.48 10.16C19.7 10.94 18.44 10.94 17.66 10.16C16.88 9.38 16.88 8.12 17.66 7.34ZM6.34 16.66C5.56 17.44 4.3 17.44 3.52 16.66C2.74 15.88 2.74 14.62 3.52 13.84C4.3 13.06 5.56 13.06 6.34 13.84C7.12 14.62 7.12 15.88 6.34 16.66ZM16.66 17.66C15.88 18.44 15.88 19.7 16.66 20.48C17.44 21.26 18.7 21.26 19.48 20.48C20.26 19.7 20.26 18.44 19.48 17.66C18.7 16.88 18.7 15.62 17.92 14.84L16.66 17.66ZM7.34 6.34C8.12 5.56 8.12 4.3 7.34 3.52C6.56 2.74 5.3 2.74 4.52 3.52C3.74 4.3 3.74 5.56 4.52 6.34C5.3 7.12 6.56 7.12 7.34 6.34Z" />
-					<circle cx="12" cy="12" r="3" class="text-blue-500" />
-				</svg>
+			<div class="text-primary-600">
+				{@html icons.logo}
 			</div>
-			<span class="font-bold text-xl tracking-tight">Distill</span>
+			<span class="font-bold text-xl tracking-tight">Stacks</span>
 		</div>
 		<nav class="flex items-center gap-6 text-sm font-medium">
-			<a href="#" class="text-gray-600 hover:text-gray-900">Guide</a>
-			<a href="#" class="bg-gray-100 px-4 py-2 rounded-lg text-gray-900 hover:bg-gray-200 transition-colors">Login</a>
+			<a href="#features" class="text-gray-600 hover:text-gray-900">Features</a>
+			<a href="#pricing" class="text-gray-600 hover:text-gray-900">Pricing</a>
+			<a href="https://app.betterstacks.com" class="bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-700 transition-colors">Get Started</a>
 		</nav>
 	</header>
 
 	<main>
 		<!-- Hero Section -->
 		<section class="max-w-4xl mx-auto px-6 pt-12 pb-20 text-center">
-			<div class="inline-flex items-center gap-2 text-gray-500 text-sm mb-6">
-				{@html icons.clock}
-				<span>For macOS & iOS</span>
+			<div class="inline-flex items-center gap-3 text-gray-500 text-sm mb-6 flex-wrap justify-center">
+				<span class="flex items-center gap-1.5">
+					<svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+					Chrome
+				</span>
+				<span class="text-gray-300">•</span>
+				<span class="flex items-center gap-1.5">
+					<svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 9.48l1.84-3.18c.16-.31.25-.66.25-1.02 0-1.21-.99-2.2-2.2-2.2-.36 0-.71.09-1.02.25L13.29 5.1c-.23-.03-.46-.05-.69-.05-2.2 0-4.22.78-5.79 2.07L3.9 4.21c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l2.92 2.92C4.78 9.78 4 11.79 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8c0-.46-.04-.92-.11-1.36l1.96-1.96c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0l-1.96 1.96c-.44-.8-.98-1.53-1.6-2.16zM12 20c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/></svg>
+					Android
+				</span>
+				<span class="text-gray-300">•</span>
+				<span class="flex items-center gap-1.5">
+					<svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+					iOS
+				</span>
+				<span class="text-gray-300">•</span>
+				<span class="flex items-center gap-1.5">
+					<svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+					Web
+				</span>
 			</div>
 			
 			<h1 class="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 mb-6 leading-[1.1]">
-				Capture once. Distill forever.
+				Your digital content, unified and understood
 			</h1>
 			
 			<p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
-				The insight-to-action loop for people who think for a living.
+				Stacks unifies scattered bookmarks, saves, and screenshots with intent-aware AI that remembers context and surfaces connections.
 			</p>
 
-			<div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-lg mx-auto mb-16">
-				<div class="relative w-full">
-					<input 
-						type="email" 
-						placeholder="Your email address" 
-						class="w-full pl-4 pr-12 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all"
-					/>
-					<button class="absolute right-2 top-1/2 -translate-y-1/2 p-1.5 text-gray-400 hover:text-gray-600">
-						{@html icons.arrowRight}
-					</button>
-				</div>
-				<div class="text-xs text-left text-gray-500 w-full sm:w-auto shrink-0">
-					Request an invitation,<br>Distill is in limited access.
-				</div>
+			<div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+				<a href="https://app.betterstacks.com" class="bg-primary-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-primary-700 transition-colors shadow-lg shadow-primary-600/20">
+					Start Organizing Free
+				</a>
+				<a href="https://chrome.google.com/webstore" class="border border-gray-200 px-8 py-3 rounded-xl font-semibold hover:bg-gray-50 transition-colors flex items-center gap-2">
+					<svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+					Add to Chrome
+				</a>
 			</div>
 
-			<!-- App Screenshot Placeholder -->
-			<div class="relative rounded-2xl border border-gray-200 shadow-2xl bg-white overflow-hidden aspect-[16/10] mb-12 group">
-				<!-- This represents the complex app interface -->
-				<div class="absolute inset-0 bg-gray-50 flex">
-					<!-- Sidebar -->
-					<div class="w-64 border-r border-gray-200 bg-white p-4 hidden md:flex flex-col gap-4">
-						<div class="h-8 w-full bg-gray-100 rounded animate-pulse"></div>
-						<div class="space-y-2">
-							<div class="h-4 w-3/4 bg-gray-100 rounded"></div>
-							<div class="h-4 w-1/2 bg-gray-100 rounded"></div>
-							<div class="h-4 w-5/6 bg-gray-100 rounded"></div>
-						</div>
-					</div>
-					<!-- Main Content -->
-					<div class="flex-1 p-6">
-						<div class="h-8 w-1/3 bg-gray-100 rounded mb-6"></div>
-						<div class="space-y-4">
-							<div class="h-32 w-full bg-white border border-gray-200 rounded-xl p-4 shadow-sm">
-								<div class="flex gap-3 mb-3">
-									<div class="w-8 h-8 rounded-full bg-gray-200"></div>
-									<div class="space-y-1">
-										<div class="h-3 w-24 bg-gray-200 rounded"></div>
-										<div class="h-3 w-16 bg-gray-100 rounded"></div>
-									</div>
-								</div>
-								<div class="h-2 w-full bg-gray-100 rounded mb-2"></div>
-								<div class="h-2 w-5/6 bg-gray-100 rounded"></div>
-							</div>
-							<div class="h-32 w-full bg-white border border-gray-200 rounded-xl p-4 shadow-sm"></div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Overlay text to indicate it's a screenshot -->
-				<div class="absolute inset-0 flex items-center justify-center bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-					<span class="bg-white px-4 py-2 rounded-full shadow-sm text-sm font-medium">App Interface</span>
-				</div>
+			<!-- Hero Image -->
+			<div class="relative rounded-2xl border border-gray-200 shadow-2xl bg-white overflow-hidden mb-12">
+				<img 
+					src="/generated/image-knowledge-worker-at-modern-desk-with-mul-1765521059481-0.webp" 
+					alt="Knowledge worker organizing digital content with Stacks"
+					class="w-full h-auto"
+				/>
 			</div>
 
 			<!-- Bottom Icons -->
 			<div class="flex flex-wrap justify-center gap-8 md:gap-12 text-sm font-medium text-gray-700">
 				<div class="flex items-center gap-2">
-					{@html icons.reflection}
-					<span>For reflection</span>
+					{@html icons.search}
+					<span>Natural search</span>
 				</div>
 				<div class="flex items-center gap-2">
-					{@html icons.productivity}
-					<span>For productivity</span>
+					{@html icons.link}
+					<span>Cross-platform</span>
 				</div>
 				<div class="flex items-center gap-2">
-					{@html icons.memory}
-					<span>For memory</span>
+					{@html icons.sparkles}
+					<span>AI-powered</span>
 				</div>
 				<div class="flex items-center gap-2">
-					{@html icons.clarity}
-					<span>For clarity</span>
+					{@html icons.layout}
+					<span>Team workspaces</span>
 				</div>
 			</div>
+		</section>
+		
 		<!-- Features Grid -->
-		<section class="max-w-6xl mx-auto px-6 py-20">
-			<h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 max-w-lg leading-tight">
-				Great ideas start in quiet places, welcome to your private think space.
+		<section id="features" class="max-w-6xl mx-auto px-6 py-20">
+			<h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 max-w-2xl leading-tight">
+				Stop drowning in bookmarks. Start finding what matters.
 			</h2>
+			<p class="text-lg text-gray-600 mb-12 max-w-2xl">
+				Trusted by 5,000+ creators, founders, and lifelong learners to organize 2.1M+ pieces of content.
+			</p>
 
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 				<!-- Card 1 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
-					<div class="mb-auto text-gray-900">
-						{@html icons.speedometer}
+					<div class="mb-auto text-primary-600">
+						{@html icons.link}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Built for flow</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Fast, modern mobile and desktop apps that work offline</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Save from anywhere</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Chrome extension, mobile apps, and web clipper work across all your devices</p>
 					</div>
 				</div>
 
 				<!-- Card 2 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
-					<div class="mb-auto text-gray-900">
-						{@html icons.shield}
+					<div class="mb-auto text-primary-600">
+						{@html icons.sparkles}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Private by design</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Stored on your device and syncs with end-to-end encryption</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Intent-aware AI</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Understands why you save content and surfaces relevant connections automatically</p>
 					</div>
 				</div>
 
 				<!-- Card 3 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
-					<div class="mb-auto text-gray-900">
-						{@html icons.sparkles}
+					<div class="mb-auto text-primary-600">
+						{@html icons.layout}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Works with AI</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Intelligent agents that think with you and organize your vault</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Smart organization</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">AI automatically extracts metadata, summarizes content, and organizes into workspaces</p>
 					</div>
 				</div>
 
 				<!-- Card 4 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
-					<div class="mb-auto text-gray-900">
-						{@html icons.soundwave}
+					<div class="mb-auto text-primary-600">
+						{@html icons.search}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Speak to journal</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Dictate your ideas and thoughts effortlessly</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Natural language search</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Find content by meaning, not just keywords. Search understands context</p>
 					</div>
 				</div>
 
 				<!-- Card 5 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
-					<div class="mb-auto text-gray-900">
-						{@html icons.plus}
+					<div class="mb-auto text-primary-600">
+						{@html icons.maximize}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Capture effortlessly</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Text, links, photos, screenshots, and more</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Team workspaces</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Share collections with colleagues and collaborate on research</p>
+					</div>
+				</div>
+
+				<!-- Card 6 -->
+				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
+					<div class="mb-auto text-primary-600">
+						{@html icons.target}
+					</div>
+					<div>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Pattern recognition</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">AI spots patterns in your content you never noticed yourself</p>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- Think Tank Section -->
+		<!-- AI Features Section -->
 		<section class="max-w-6xl mx-auto px-6 py-20">
 			<div class="mb-16">
-				<span class="inline-block bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
-					With best-in-class AI
+				<span class="inline-block bg-primary-100 text-primary-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
+					Powered by 4.5M+ interaction data points
 				</span>
-				<h2 class="text-4xl md:text-5xl font-bold text-purple-900 mb-6 tracking-tight">
-					Your personal think tank
+				<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
+					AI that understands your intent
 				</h2>
 				<p class="text-xl text-gray-600 max-w-2xl leading-relaxed">
-					Intelligent agents that organize and enhance your thinking. Your intellectual force multiplier.
+					When you save content, you express an intention. Stacks AI understands that intent and helps you act on it.
 				</p>
 			</div>
 
-			<div class="bg-purple-50 rounded-3xl p-8 md:p-12 mb-16">
+			<div class="bg-primary-50/30 rounded-3xl p-8 md:p-12 mb-16">
 				<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-					<!-- Left Visual: Nova Agent -->
+					<!-- Left Visual: Content Card -->
 					<div class="relative bg-white rounded-2xl shadow-lg p-6 overflow-hidden min-h-[300px]">
-						<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 to-pink-500"></div>
-						<div class="flex items-center gap-3 mb-6">
-							<div class="w-10 h-10 rounded-full bg-gradient-to-br from-purple-600 to-orange-400 flex items-center justify-center text-white font-bold text-xs">
-								N
-							</div>
+						<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary-500 to-primary-600"></div>
+						<div class="flex items-center gap-2 mb-4 text-xs text-gray-400 border-b border-gray-100 pb-2">
+							<div class="w-2 h-2 rounded-full bg-primary-500"></div>
+							<span class="truncate">youtube.com/watch?v=dQw4w9WgXcQ</span>
+						</div>
+						<div class="space-y-4">
 							<div>
-								<div class="font-bold text-gray-900">Nova</div>
-								<div class="text-xs text-purple-600 font-medium uppercase tracking-wider">The Playful Explorer</div>
+								<h4 class="font-bold text-gray-900 mb-2">Building a Second Brain: Overview</h4>
+								<div class="flex gap-2 mb-3">
+									<span class="bg-primary-100 text-primary-700 px-2 py-0.5 rounded text-xs font-medium">Productivity</span>
+									<span class="bg-primary-100 text-primary-700 px-2 py-0.5 rounded text-xs font-medium">Knowledge Management</span>
+								</div>
+								<p class="text-sm text-gray-600 leading-relaxed">
+									Complete guide to organizing digital information for creative work. Covers capture, organize, distill, and express methodology.
+								</p>
 							</div>
-						</div>
-						<div class="space-y-4 text-sm">
-							<div class="bg-purple-50 p-4 rounded-xl rounded-tl-none text-gray-800">
-								I approach life like one big fascinating experiment, asking "what if" questions that make people see things in completely new ways. I believe play and humor are powerful tools for breaking through mental barriers.
+							<div class="bg-primary-50/50 p-4 rounded-lg border border-primary-100">
+								<div class="text-xs font-semibold text-primary-700 mb-2">AI DETECTED INTENT</div>
+								<p class="text-xs text-gray-700">You're building a productivity system. This relates to 12 other items in your "Personal Knowledge" workspace.</p>
 							</div>
-							<div class="flex gap-2">
-								<span class="bg-purple-900 text-white px-3 py-1 rounded-full text-xs font-medium">Extraverted</span>
-								<span class="bg-purple-900 text-white px-3 py-1 rounded-full text-xs font-medium">Intuitive</span>
+							<div class="flex gap-2 text-xs text-gray-500">
+								<span>Saved 2 days ago</span>
+								<span>•</span>
+								<span>From Chrome</span>
 							</div>
-							<div class="flex gap-2">
-								<span class="bg-purple-900 text-white px-3 py-1 rounded-full text-xs font-medium">Thinking</span>
-								<span class="bg-purple-900 text-white px-3 py-1 rounded-full text-xs font-medium">Perceiving</span>
-							</div>
-						</div>
-						<div class="mt-6">
-							<button class="w-full py-2 border border-purple-200 text-purple-700 font-medium rounded-lg hover:bg-purple-50 transition-colors">
-								Add to vault
-							</button>
 						</div>
 					</div>
 
-					<!-- Right Visual: Chat Interface -->
+					<!-- Right Visual: Connections -->
 					<div class="bg-white rounded-2xl shadow-lg p-6 min-h-[300px] flex flex-col">
-						<div class="flex items-center gap-2 mb-4 text-xs text-gray-400 border-b border-gray-100 pb-2 overflow-hidden whitespace-nowrap">
-							<div class="w-2 h-2 rounded-full bg-gray-300"></div>
-							<span>https://nabeelqu.substack.com/p/reflections-on-palantir</span>
+						<div class="mb-4">
+							<h4 class="font-bold text-gray-900 mb-1">Related Content</h4>
+							<p class="text-xs text-gray-500">AI found these connections</p>
 						</div>
-						<div class="flex-1 space-y-4">
-							<div class="border border-gray-100 rounded-lg p-4">
-								<h4 class="font-bold text-gray-900 text-sm mb-1">Reflections on Palantir</h4>
-								<div class="text-xs text-gray-500 mb-2">nabeelqu.substack.com</div>
-								<p class="text-xs text-gray-600 line-clamp-3">
-									Chronos shares five on-site stories—from mapping Afghan IEDs to fixing Airbus delays—that show Palantir teams hacking bespoke fixes, then baking them into reusable Foundry modules.
-								</p>
-							</div>
-							<div class="flex gap-2 items-center text-xs text-gray-500">
-								<div class="flex -space-x-2">
-									<div class="w-6 h-6 rounded-full bg-gray-200 border-2 border-white"></div>
-									<div class="w-6 h-6 rounded-full bg-gray-300 border-2 border-white"></div>
-								</div>
-								<span>Lens and Chronos</span>
-							</div>
-							<div class="space-y-3 pt-2">
-								<div class="flex gap-3">
-									<div class="w-6 h-6 rounded-full bg-gray-800 shrink-0"></div>
-									<div class="text-xs text-gray-800">
-										<p class="font-bold mb-1">tell me everything about rene descartes</p>
-									</div>
-								</div>
-								<div class="flex gap-3">
-									<div class="w-6 h-6 rounded-full bg-teal-500 shrink-0"></div>
-									<div class="text-xs text-gray-600 bg-gray-50 p-3 rounded-lg rounded-tl-none">
-										<p>AI for physical action: doubt filter, cogito reset, clarify rewrite, first-principles ladder, axis plotting, mind-body separation.</p>
+						<div class="flex-1 space-y-3">
+							<div class="border border-gray-100 rounded-lg p-3 hover:border-primary-300 transition-colors cursor-pointer">
+								<div class="flex items-start gap-2">
+									<div class="w-8 h-8 rounded bg-gray-100 shrink-0"></div>
+									<div class="flex-1 min-w-0">
+										<h5 class="font-semibold text-sm text-gray-900 truncate">Notion Setup Guide</h5>
+										<p class="text-xs text-gray-500 line-clamp-2">Your personal workspace setup from last month</p>
 									</div>
 								</div>
 							</div>
+							<div class="border border-gray-100 rounded-lg p-3 hover:border-primary-300 transition-colors cursor-pointer">
+								<div class="flex items-start gap-2">
+									<div class="w-8 h-8 rounded bg-gray-100 shrink-0"></div>
+									<div class="flex-1 min-w-0">
+										<h5 class="font-semibold text-sm text-gray-900 truncate">Zettelkasten Method</h5>
+										<p class="text-xs text-gray-500 line-clamp-2">Note-taking system you bookmarked</p>
+									</div>
+								</div>
+							</div>
+							<div class="border border-gray-100 rounded-lg p-3 hover:border-primary-300 transition-colors cursor-pointer">
+								<div class="flex items-start gap-2">
+									<div class="w-8 h-8 rounded bg-gray-100 shrink-0"></div>
+									<div class="flex-1 min-w-0">
+										<h5 class="font-semibold text-sm text-gray-900 truncate">GTD Workflow</h5>
+										<p class="text-xs text-gray-500 line-clamp-2">Getting Things Done methodology</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="mt-4 pt-4 border-t border-gray-100">
+							<button class="text-xs text-primary-600 font-medium hover:text-primary-700">
+								View all 12 connections →
+							</button>
 						</div>
 					</div>
 				</div>
 
-				<!-- Bottom Visual: Input Processing -->
+				<!-- Bottom Visual: Search -->
 				<div class="bg-white rounded-2xl shadow-lg p-6 md:p-8">
 					<div class="relative mb-8">
-						<input type="text" value="What are you thinking?" class="w-full bg-gray-50 border-none rounded-xl py-4 pl-12 pr-4 text-gray-500 focus:ring-0" readonly />
+						<input type="text" value="articles about building habits" class="w-full bg-gray-50 border-none rounded-xl py-4 pl-12 pr-4 text-gray-700 focus:ring-0" readonly />
 						<div class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
-							{@html icons.camera}
-						</div>
-						<div class="absolute right-4 top-1/2 -translate-y-1/2 flex gap-2 text-gray-400">
-							{@html icons.mic}
-							{@html icons.download}
+							{@html icons.search}
 						</div>
 					</div>
 
-					<div class="flex justify-center mb-8">
-						<span class="bg-gray-100 text-gray-500 text-xs px-3 py-1 rounded-full">gpt-5 is out! should we switch you to it?</span>
-					</div>
-
-					<div class="bg-purple-50/50 rounded-xl p-6 border border-purple-100">
+					<div class="bg-primary-50/50 rounded-xl p-6 border border-primary-100">
 						<div class="space-y-3">
 							<div class="flex items-center gap-3">
-								<div class="w-3 h-3 rounded-full bg-pink-500 animate-pulse"></div>
-								<span class="text-sm text-gray-700">Nova is working</span>
+								<div class="w-3 h-3 rounded-full bg-primary-500 animate-pulse"></div>
+								<span class="text-sm text-gray-700">Searching your content...</span>
 							</div>
 							<div class="flex items-start gap-3">
 								<div class="w-3 h-3 rounded-full bg-green-500 mt-1"></div>
 								<div class="text-sm text-gray-700">
-									<span class="font-medium">Nova is scanning</span> 
-									<span class="font-bold bg-white px-1 rounded border border-gray-200 mx-1">132 recent entries</span> 
-									to understand your context and checking 
-									<span class="font-bold bg-white px-1 rounded border border-gray-200 mx-1">8 lists</span> 
-									for relevant topics.
-									<p class="text-xs text-gray-500 mt-1 max-w-md">Found mentions of ChatGPT in your vault for additional context. Distill is using AI to analyze patterns and suggest relevant connections.</p>
+									<span class="font-medium">Found</span> 
+									<span class="font-bold bg-white px-1 rounded border border-gray-200 mx-1">47 items</span> 
+									about habit formation across 
+									<span class="font-bold bg-white px-1 rounded border border-gray-200 mx-1">5 workspaces</span>
+									<p class="text-xs text-gray-500 mt-1 max-w-md">Including related content about productivity, behavior change, and routine building.</p>
 								</div>
 							</div>
 							<div class="flex items-center gap-3">
 								<div class="w-3 h-3 rounded-full bg-green-500"></div>
-								<span class="text-sm text-gray-700">Added entry to <span class="bg-purple-500 text-white px-2 py-0.5 rounded text-xs font-bold">ideas</span></span>
+								<span class="text-sm text-gray-700">Organized by <span class="bg-primary-500 text-white px-2 py-0.5 rounded text-xs font-bold">relevance</span></span>
 							</div>
 							<div class="flex items-center gap-3">
-								<div class="w-3 h-3 rounded-full border-2 border-gray-300 border-t-gray-500 animate-spin"></div>
-								<span class="text-sm text-gray-500">Searching the web for <span class="text-blue-500">openai gpt-5</span></span>
+								<div class="w-3 h-3 rounded-full bg-green-500"></div>
+								<span class="text-sm text-gray-700">Detected intent: <span class="text-primary-600 font-medium">Learning & Research</span></span>
 							</div>
 						</div>
 					</div>
@@ -338,132 +326,139 @@
 
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4 max-w-4xl">
 				<p class="text-xl text-gray-600 mb-6 md:col-span-2 leading-relaxed">
-					They watch your threads, spot patterns, and do the groundwork you don't have time for—mapping connections, organizing lists, and surfacing the right context on cue.
+					Stacks AI processes millions of interactions to understand patterns in how you save and use content, surfacing connections you never knew existed.
 				</p>
 				
 				<div class="space-y-4">
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
+					<div class="flex items-center gap-3 text-primary-700 font-medium">
 						{@html icons.sparkles}
-						<span>Agents engage with you</span>
+						<span>Automatic metadata extraction</span>
 					</div>
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
+					<div class="flex items-center gap-3 text-primary-700 font-medium">
 						{@html icons.target}
-						<span>Guide you towards your goals</span>
+						<span>Intent signal detection</span>
 					</div>
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
-						{@html icons.plus}
-						<span>Auto-organize entries into lists</span>
+					<div class="flex items-center gap-3 text-primary-700 font-medium">
+						{@html icons.layout}
+						<span>Smart workspace organization</span>
 					</div>
 				</div>
 
 				<div class="space-y-4">
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
-						{@html icons.layout}
-						<span>Connect the dots across threads</span>
+					<div class="flex items-center gap-3 text-primary-700 font-medium">
+						{@html icons.link}
+						<span>Cross-platform content linking</span>
 					</div>
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
+					<div class="flex items-center gap-3 text-primary-700 font-medium">
 						{@html icons.maximize}
-						<span>Read and summarize links</span>
+						<span>Automatic summarization</span>
 					</div>
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
-						{@html icons.externalLink}
-						<span>Sees your screenshots</span>
+					<div class="flex items-center gap-3 text-primary-700 font-medium">
+						{@html icons.search}
+						<span>Semantic search understanding</span>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- Insights to Action Section -->
+		<!-- Workspaces Section -->
 		<section class="max-w-6xl mx-auto px-6 py-20">
 			<div class="mb-16">
-				<span class="inline-block bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
-					Planner
+				<span class="inline-block bg-primary-100 text-primary-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
+					Collaboration
 				</span>
-				<h2 class="text-4xl md:text-5xl font-bold text-orange-900 mb-6 tracking-tight">
-					From insights to action
+				<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
+					Organize and share with workspaces
 				</h2>
 				<p class="text-xl text-gray-600 max-w-2xl leading-relaxed">
-					Agents help you break plans down, manage todos, and keep everything moving.
+					Create dedicated spaces for projects, share collections with your team, and collaborate on research.
 				</p>
 			</div>
 
-			<div class="bg-orange-50 rounded-3xl p-8 md:p-12 mb-16">
+			<div class="bg-primary-50/30 rounded-3xl p-8 md:p-12 mb-16">
 				<div class="bg-white rounded-2xl shadow-sm p-6 md:p-8 max-w-3xl mx-auto">
-					<!-- Stats -->
-					<div class="grid grid-cols-4 gap-4 mb-8">
-						<div class="bg-green-100 p-3 rounded-xl">
-							<div class="text-xs font-bold text-green-800 mb-1">Today</div>
-							<div class="text-2xl font-bold text-green-900">5</div>
+					<!-- Workspace Header -->
+					<div class="flex items-center justify-between mb-6">
+						<div>
+							<h3 class="text-xl font-bold text-gray-900">Product Research</h3>
+							<p class="text-sm text-gray-500">Shared with 4 team members</p>
 						</div>
-						<div class="bg-orange-100 p-3 rounded-xl">
-							<div class="text-xs font-bold text-orange-800 mb-1">Scheduled</div>
-							<div class="text-2xl font-bold text-orange-900">51</div>
+						<button class="bg-primary-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary-700">
+							Share
+						</button>
+					</div>
+
+					<!-- Folders -->
+					<div class="space-y-3 mb-8">
+						<div class="border border-gray-200 rounded-lg p-4 hover:border-primary-300 transition-colors cursor-pointer">
+							<div class="flex items-center justify-between">
+								<div class="flex items-center gap-3">
+									{@html icons.layout}
+									<div>
+										<h4 class="font-semibold text-gray-900">Competitor Analysis</h4>
+										<p class="text-xs text-gray-500">127 items • Updated 2h ago</p>
+									</div>
+								</div>
+								<div class="flex -space-x-2">
+									<div class="w-6 h-6 rounded-full bg-primary-200 border-2 border-white"></div>
+									<div class="w-6 h-6 rounded-full bg-primary-300 border-2 border-white"></div>
+								</div>
+							</div>
 						</div>
-						<div class="bg-gray-100 p-3 rounded-xl">
-							<div class="text-xs font-bold text-gray-600 mb-1">All</div>
-							<div class="text-2xl font-bold text-gray-900">56</div>
+
+						<div class="border border-gray-200 rounded-lg p-4 hover:border-primary-300 transition-colors cursor-pointer">
+							<div class="flex items-center justify-between">
+								<div class="flex items-center gap-3">
+									{@html icons.layout}
+									<div>
+										<h4 class="font-semibold text-gray-900">User Interviews</h4>
+										<p class="text-xs text-gray-500">43 items • Updated yesterday</p>
+									</div>
+								</div>
+								<div class="flex -space-x-2">
+									<div class="w-6 h-6 rounded-full bg-primary-200 border-2 border-white"></div>
+								</div>
+							</div>
 						</div>
-						<div class="bg-gray-100 p-3 rounded-xl">
-							<div class="text-xs font-bold text-gray-600 mb-1">Completed</div>
-							<div class="text-2xl font-bold text-gray-900">70</div>
+
+						<div class="border border-gray-200 rounded-lg p-4 hover:border-primary-300 transition-colors cursor-pointer">
+							<div class="flex items-center justify-between">
+								<div class="flex items-center gap-3">
+									{@html icons.layout}
+									<div>
+										<h4 class="font-semibold text-gray-900">Design Inspiration</h4>
+										<p class="text-xs text-gray-500">89 items • Updated 3 days ago</p>
+									</div>
+								</div>
+								<div class="flex -space-x-2">
+									<div class="w-6 h-6 rounded-full bg-primary-200 border-2 border-white"></div>
+									<div class="w-6 h-6 rounded-full bg-primary-300 border-2 border-white"></div>
+									<div class="w-6 h-6 rounded-full bg-primary-400 border-2 border-white"></div>
+								</div>
+							</div>
 						</div>
 					</div>
 
-					<!-- Task List -->
-					<div class="space-y-6">
-						<div>
-							<div class="text-xs font-bold text-red-500 mb-2 tracking-wide">OVERDUE</div>
-							<div class="flex gap-4 items-start group">
-								<div class="mt-1 w-5 h-5 rounded-full border-2 border-red-500 flex items-center justify-center cursor-pointer"></div>
-								<div class="flex-1">
-									<h4 class="font-bold text-gray-900">Review quarterly budget report</h4>
-									<p class="text-xs text-gray-500 mt-1">Review and provide feedback on the Q4 budget analysis prepared by the finance team.</p>
-									<div class="text-xs text-red-500 mt-1 font-medium">YESTERDAY · 2:00 PM</div>
+					<!-- Recent Activity -->
+					<div class="border-t border-gray-100 pt-6">
+						<h4 class="text-sm font-semibold text-gray-900 mb-4">Recent Activity</h4>
+						<div class="space-y-3 text-sm">
+							<div class="flex items-start gap-3">
+								<div class="w-6 h-6 rounded-full bg-primary-100 flex items-center justify-center shrink-0">
+									<span class="text-xs font-bold text-primary-700">JD</span>
+								</div>
+								<div>
+									<p class="text-gray-700"><span class="font-medium">John</span> added 5 items to Competitor Analysis</p>
+									<p class="text-xs text-gray-500">2 hours ago</p>
 								</div>
 							</div>
-						</div>
-
-						<div>
-							<div class="text-xs font-bold text-red-500 mb-2 tracking-wide">TODAY</div>
-							<div class="flex gap-4 items-start group">
-								<div class="mt-1 w-5 h-5 rounded-full border-2 border-gray-300 group-hover:border-gray-400 cursor-pointer"></div>
-								<div class="flex-1">
-									<h4 class="font-bold text-gray-900">40-min Zone-2 jog / easy spin</h4>
-									<p class="text-xs text-gray-500 mt-1">Perform a 40-minute Zone-2 jog or easy spin. Maintain a pace where you can converse in full sentences.</p>
-									<div class="flex gap-2 text-xs text-gray-400 mt-1">
-										<span>TODAY · 06:00 AM</span>
-										<span>•</span>
-										<span class="flex items-center gap-1">{@html icons.repeat} REPEATS WEEKLY</span>
-									</div>
+							<div class="flex items-start gap-3">
+								<div class="w-6 h-6 rounded-full bg-primary-100 flex items-center justify-center shrink-0">
+									<span class="text-xs font-bold text-primary-700">SM</span>
 								</div>
-							</div>
-						</div>
-
-						<div>
-							<div class="flex gap-4 items-start group">
-								<div class="mt-1 w-5 h-5 rounded-full border-2 border-blue-500 cursor-pointer"></div>
-								<div class="flex-1">
-									<h4 class="font-bold text-gray-900">Team standup meeting</h4>
-									<p class="text-xs text-gray-500 mt-1">Daily sync with the team to discuss progress and blockers.</p>
-									<div class="text-xs text-gray-400 mt-1">TODAY · 9:00 AM</div>
-								</div>
-							</div>
-						</div>
-
-						<div>
-							<div class="text-xs font-bold text-gray-400 mb-2 tracking-wide">NO DUE DATE</div>
-							<div class="space-y-3 opacity-60">
-								<div class="flex gap-4 items-center">
-									<div class="w-5 h-5 rounded-full border-2 border-gray-300"></div>
-									<span class="text-sm text-gray-600">Draft the first cut — 90-min rough draft block</span>
-								</div>
-								<div class="flex gap-4 items-center">
-									<div class="w-5 h-5 rounded-full border-2 border-gray-300"></div>
-									<span class="text-sm text-gray-600">Feedback loop — sit with Alex and refine the draft</span>
-								</div>
-								<div class="flex gap-4 items-center">
-									<div class="w-5 h-5 rounded-full border-2 border-gray-300"></div>
-									<span class="text-sm text-gray-600">Badminton practice</span>
+								<div>
+									<p class="text-gray-700"><span class="font-medium">Sarah</span> shared this workspace with you</p>
+									<p class="text-xs text-gray-500">Yesterday</p>
 								</div>
 							</div>
 						</div>
@@ -474,138 +469,335 @@
 			<div class="flex flex-col md:flex-row gap-8 md:items-start justify-between">
 				<div class="flex gap-6 text-sm font-medium text-gray-600">
 					<div class="flex items-center gap-2">
-						{@html icons.check}
-						<span>Checklists</span>
+						{@html icons.layout}
+						<span>Unlimited workspaces</span>
 					</div>
 					<div class="flex items-center gap-2">
-						{@html icons.calendar}
-						<span>Scheduled events</span>
+						{@html icons.maximize}
+						<span>Team sharing</span>
 					</div>
 					<div class="flex items-center gap-2">
-						{@html icons.repeat}
-						<span>Repeating tasks</span>
+						{@html icons.link}
+						<span>Public links</span>
 					</div>
 				</div>
 				<p class="text-xl text-gray-600 max-w-lg leading-relaxed">
-					Capture an idea, sketch a plan, or think out loud—your agents turn it into an actionable roadmap without disrupting your flow.
+					Keep projects organized, share research with colleagues, and collaborate without losing context.
 				</p>
 			</div>
 		</section>
 
-		<!-- Who uses it Section -->
-		<section class="max-w-7xl mx-auto px-6 py-20">
-			<div class="mb-16">
-				<span class="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
-					Use cases
-				</span>
+		<!-- Pricing Section -->
+		<section id="pricing" class="max-w-6xl mx-auto px-6 py-20">
+			<div class="text-center mb-16">
 				<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
-					Who uses it?
+					Simple, transparent pricing
 				</h2>
-				<p class="text-xl text-gray-600 max-w-2xl leading-relaxed">
-					Distill works for anyone who needs to keep their best thinking alive- from executives to researchers to creators.
+				<p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+					Start free, upgrade when you need more. 30-day money-back guarantee, no questions asked.
 				</p>
 			</div>
 
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+				<!-- Free Plan -->
+				<div class="border border-gray-200 rounded-2xl p-8 hover:border-primary-300 transition-colors">
+					<h3 class="text-xl font-bold text-gray-900 mb-2">Free</h3>
+					<div class="mb-6">
+						<span class="text-4xl font-bold text-gray-900">$0</span>
+						<span class="text-gray-500">/month</span>
+					</div>
+					<ul class="space-y-3 mb-8 text-sm">
+						<li class="flex items-start gap-2">
+							{@html icons.check}
+							<span class="text-gray-600">Up to 1,000 items</span>
+						</li>
+						<li class="flex items-start gap-2">
+							{@html icons.check}
+							<span class="text-gray-600">Basic AI features</span>
+						</li>
+						<li class="flex items-start gap-2">
+							{@html icons.check}
+							<span class="text-gray-600">Chrome extension</span>
+						</li>
+						<li class="flex items-start gap-2">
+							{@html icons.check}
+							<span class="text-gray-600">Mobile apps</span>
+						</li>
+					</ul>
+					<button class="w-full py-3 border border-gray-200 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+						Get Started
+					</button>
+				</div>
+
+				<!-- Pro Plan -->
+				<div class="border-2 border-primary-600 rounded-2xl p-8 relative">
+					<div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary-600 text-white px-4 py-1 rounded-full text-xs font-semibold">
+						MOST POPULAR
+					</div>
+					<h3 class="text-xl font-bold text-gray-900 mb-2">Be Productive</h3>
+					<div class="mb-6">
+						<span class="text-4xl font-bold text-gray-900">$9</span>
+						<span class="text-gray-500">/month</span>
+						<div class="text-xs text-gray-500 mt-1">or $89/year (save 30%)</div>
+					</div>
+					<ul class="space-y-3 mb-8 text-sm">
+						<li class="flex items-start gap-2">
+							{@html icons.check}
+							<span class="text-gray-600">Unlimited items</span>
+						</li>
+						<li class="flex items-start gap-2">
+							{@html icons.check}
+							<span class="text-gray-600">Advanced AI features</span>
+						</li>
+						<li class="flex items-start gap-2">
+							{@html icons.check}
+							<span class="text-gray-600">Priority support</span>
+						</li>
+						<li class="flex items-start gap-2">
+							{@html icons.check}
+							<span class="text-gray-600">All platforms</span>
+						</li>
+						<li class="flex items-start gap-2">
+							{@html icons.check}
+							<span class="text-gray-600">Workspace sharing</span>
+						</li>
+					</ul>
+					<button class="w-full py-3 bg-primary-600 text-white rounded-lg font-semibold hover:bg-primary-700 transition-colors">
+						Start Free Trial
+					</button>
+				</div>
+
+				<!-- Team Plan -->
+				<div class="border border-gray-200 rounded-2xl p-8 hover:border-primary-300 transition-colors">
+					<h3 class="text-xl font-bold text-gray-900 mb-2">Be Collaborative</h3>
+					<div class="mb-6">
+						<span class="text-4xl font-bold text-gray-900">$29</span>
+						<span class="text-gray-500">/month</span>
+						<div class="text-xs text-gray-500 mt-1">or $199/year</div>
+					</div>
+					<ul class="space-y-3 mb-8 text-sm">
+						<li class="flex items-start gap-2">
+							{@html icons.check}
+							<span class="text-gray-600">Everything in Pro</span>
+						</li>
+						<li class="flex items-start gap-2">
+							{@html icons.check}
+							<span class="text-gray-600">Team workspaces</span>
+						</li>
+						<li class="flex items-start gap-2">
+							{@html icons.check}
+							<span class="text-gray-600">Priority chat support</span>
+						</li>
+						<li class="flex items-start gap-2">
+							{@html icons.check}
+							<span class="text-gray-600">Admin controls</span>
+						</li>
+						<li class="flex items-start gap-2">
+							{@html icons.check}
+							<span class="text-gray-600">Advanced analytics</span>
+						</li>
+					</ul>
+					<button class="w-full py-3 border border-gray-200 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+						Start Free Trial
+					</button>
+				</div>
+			</div>
+
+			<div class="text-center mt-12">
+				<p class="text-sm text-gray-600 mb-4">Need more? <a href="mailto:enterprise@betterstacks.com" class="text-primary-600 font-semibold hover:text-primary-700">Contact us for Enterprise pricing</a></p>
+				<div class="flex items-center justify-center gap-6 text-xs text-gray-500">
+					<span class="flex items-center gap-2">
+						{@html icons.check}
+						30-day money-back guarantee
+					</span>
+					<span class="flex items-center gap-2">
+						{@html icons.check}
+						Cancel anytime
+					</span>
+					<span class="flex items-center gap-2">
+						{@html icons.check}
+						No credit card required
+					</span>
+				</div>
+			</div>
+		</section>
+
+		<!-- Use Cases & Testimonials Section -->
+		<section class="max-w-7xl mx-auto px-6 py-20">
+			<div class="mb-16">
+				<span class="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
+					Trusted by knowledge workers
+				</span>
+				<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
+					Built for how you actually work
+				</h2>
+				<p class="text-xl text-gray-600 max-w-2xl leading-relaxed">
+					From researchers to creators to founders, Stacks helps organize the content that matters.
+				</p>
+			</div>
+
+			<!-- Testimonials -->
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+				<div class="bg-gray-50 p-6 rounded-xl">
+					<div class="flex items-center gap-3 mb-4">
+						<div class="w-10 h-10 rounded-full bg-primary-200"></div>
+						<div>
+							<div class="font-semibold text-gray-900">Guta Raspanti</div>
+							<div class="text-xs text-gray-500">Visionary</div>
+						</div>
+					</div>
+					<p class="text-sm text-gray-700 mb-3">"My bookmarks were scattered across platforms with no connection. Stacks understood what I was trying to accomplish."</p>
+					<div class="text-xs font-semibold text-primary-600">Saved 2+ hours daily</div>
+				</div>
+
+				<div class="bg-gray-50 p-6 rounded-xl">
+					<div class="flex items-center gap-3 mb-4">
+						<div class="w-10 h-10 rounded-full bg-primary-200"></div>
+						<div>
+							<div class="font-semibold text-gray-900">Chase DiMarco</div>
+							<div class="text-xs text-gray-500">Researcher</div>
+						</div>
+					</div>
+					<p class="text-sm text-gray-700 mb-3">"I can create workspaces, folders within each, and share them with my team easily. Game changer for collaboration."</p>
+					<div class="text-xs font-semibold text-primary-600">Shared 50+ workspaces</div>
+				</div>
+
+				<div class="bg-gray-50 p-6 rounded-xl">
+					<div class="flex items-center gap-3 mb-4">
+						<div class="w-10 h-10 rounded-full bg-primary-200"></div>
+						<div>
+							<div class="font-semibold text-gray-900">Mohit Baid</div>
+							<div class="text-xs text-gray-500">Innovator</div>
+						</div>
+					</div>
+					<p class="text-sm text-gray-700 mb-3">"The product recognizes patterns in my content I never noticed. Like having an assistant that understands why I save things."</p>
+					<div class="text-xs font-semibold text-primary-600">Found 200+ connections</div>
+				</div>
+			</div>
+
+			<!-- Use Cases -->
 			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
 				<!-- Card 1 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Decision logging</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Record key choices and the reasoning behind them, so you can revisit the "why" at any time.</p>
+				<div class="bg-gray-100 p-6 rounded-xl min-h-[180px] flex flex-col">
+					<h3 class="font-bold text-gray-900 mb-2">Research Organization</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Collect articles, papers, and resources for projects. AI finds connections across sources.</p>
 				</div>
 				<!-- Card 2 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Idea tracking</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Capture sparks of inspiration before they fade and connect them to ongoing work.</p>
+				<div class="bg-gray-100 p-6 rounded-xl min-h-[180px] flex flex-col">
+					<h3 class="font-bold text-gray-900 mb-2">Content Curation</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Save inspiration from social media, blogs, and videos. Build collections by theme.</p>
 				</div>
 				<!-- Card 3 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Weekly reviews</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Reflect on the past week's shifts, wins, and challenges to plan your next moves.</p>
+				<div class="bg-gray-100 p-6 rounded-xl min-h-[180px] flex flex-col">
+					<h3 class="font-bold text-gray-900 mb-2">Team Knowledge Base</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Share resources with colleagues. Build shared understanding across your team.</p>
 				</div>
 				<!-- Card 4 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Story building</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Develop narratives or arguments over time by adding and refining entries in a thread.</p>
+				<div class="bg-gray-100 p-6 rounded-xl min-h-[180px] flex flex-col">
+					<h3 class="font-bold text-gray-900 mb-2">Learning Paths</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Organize tutorials, courses, and guides. Track your learning journey over time.</p>
 				</div>
 
 				<!-- Card 5 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Progress tracking</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Keep a living record of milestones, blockers, and updates across projects.</p>
+				<div class="bg-gray-100 p-6 rounded-xl min-h-[180px] flex flex-col">
+					<h3 class="font-bold text-gray-900 mb-2">Product Research</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Collect competitor analysis, user feedback, and market insights in one place.</p>
 				</div>
 				<!-- Card 6 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Goal setting</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Define clear objectives and keep them visible as your work evolves.</p>
+				<div class="bg-gray-100 p-6 rounded-xl min-h-[180px] flex flex-col">
+					<h3 class="font-bold text-gray-900 mb-2">Design Inspiration</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Save examples, screenshots, and references. Find them when you need them.</p>
 				</div>
 				<!-- Card 7 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Action planning</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Turn insights and ideas into a prioritized list of next steps.</p>
+				<div class="bg-gray-100 p-6 rounded-xl min-h-[180px] flex flex-col">
+					<h3 class="font-bold text-gray-900 mb-2">Reading Lists</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Save articles to read later. AI summarizes and extracts key points automatically.</p>
 				</div>
 				<!-- Card 8 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Strategy reviews</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Assess current direction by surfacing shifts, risks, and opportunities.</p>
+				<div class="bg-gray-100 p-6 rounded-xl min-h-[180px] flex flex-col">
+					<h3 class="font-bold text-gray-900 mb-2">Project Planning</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Gather requirements, specs, and references. Keep everything accessible to your team.</p>
 				</div>
+			</div>
+		</section>
 
-				<!-- Card 9 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Research synthesis</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Convert scattered findings into clear, connected insights.</p>
+		<!-- Final CTA Section -->
+		<section class="max-w-4xl mx-auto px-6 py-20">
+			<div class="bg-gradient-to-br from-primary-600 to-primary-700 rounded-3xl p-12 text-center text-white">
+				<h2 class="text-3xl md:text-4xl font-bold mb-4">
+					Stop losing track of what matters
+				</h2>
+				<p class="text-lg text-primary-50 mb-8 max-w-2xl mx-auto">
+					Join 5,000+ knowledge workers who've organized over 2.1M pieces of content with Stacks.
+				</p>
+				<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+					<a href="https://app.betterstacks.com" class="bg-white text-primary-600 px-8 py-3 rounded-xl font-semibold hover:bg-primary-50 transition-colors shadow-lg">
+						Start Organizing Free
+					</a>
+					<a href="https://chrome.google.com/webstore" class="border-2 border-white text-white px-8 py-3 rounded-xl font-semibold hover:bg-white/10 transition-colors">
+						Add to Chrome
+					</a>
 				</div>
-				<!-- Card 10 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Meeting prep</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Walk into discussions with the relevant context and decisions at hand.</p>
-				</div>
-				<!-- Card 11 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Content outlining</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Shape captured thoughts into structured drafts for writing or presentations.</p>
-				</div>
+				<p class="text-sm text-primary-100 mt-6">
+					No credit card required • Free forever plan available
+				</p>
 			</div>
 		</section>
 
 		<!-- Footer -->
 		<footer class="max-w-7xl mx-auto px-6 py-12 border-t border-gray-100">
-			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+			<div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
 				<div>
-					<h4 class="font-bold text-sm text-gray-900 mb-4">Resources</h4>
-					<div class="grid grid-cols-2 gap-x-8 gap-y-3 text-xs text-gray-600">
-						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.sparkles} The augmented thinker
-						</a>
-						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.plus} Getting started with Distill
-						</a>
-						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.download} Import to Distill
-						</a>
-						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.target} Make your own agents
-						</a>
-						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.reflection} Building a journaling habit
-						</a>
+					<div class="flex items-center gap-2 mb-4">
+						<div class="text-primary-600">
+							{@html icons.logo}
+						</div>
+						<span class="font-bold text-lg">Stacks</span>
+					</div>
+					<p class="text-xs text-gray-600 leading-relaxed">
+						Unifying scattered digital content with intent-aware AI.
+					</p>
+				</div>
+				
+				<div>
+					<h4 class="font-bold text-sm text-gray-900 mb-4">Product</h4>
+					<div class="space-y-2 text-xs text-gray-600">
+						<a href="#features" class="block hover:text-gray-900">Features</a>
+						<a href="#pricing" class="block hover:text-gray-900">Pricing</a>
+						<a href="https://chrome.google.com/webstore" class="block hover:text-gray-900">Chrome Extension</a>
+						<a href="https://apps.apple.com" class="block hover:text-gray-900">Mobile Apps</a>
+					</div>
+				</div>
+
+				<div>
+					<h4 class="font-bold text-sm text-gray-900 mb-4">Company</h4>
+					<div class="space-y-2 text-xs text-gray-600">
+						<a href="#" class="block hover:text-gray-900">About</a>
+						<a href="#" class="block hover:text-gray-900">Blog</a>
+						<a href="mailto:enterprise@betterstacks.com" class="block hover:text-gray-900">Enterprise</a>
+						<a href="mailto:help@betterstacks.com" class="block hover:text-gray-900">Support</a>
+					</div>
+				</div>
+
+				<div>
+					<h4 class="font-bold text-sm text-gray-900 mb-4">Legal</h4>
+					<div class="space-y-2 text-xs text-gray-600">
+						<a href="#" class="block hover:text-gray-900">Privacy Policy</a>
+						<a href="#" class="block hover:text-gray-900">Terms of Service</a>
+						<a href="#" class="block hover:text-gray-900">Security</a>
 					</div>
 				</div>
 			</div>
 
-			<div class="flex flex-col md:flex-row justify-between items-center mt-12 pt-8 text-xs text-gray-400">
-				<div class="flex items-center gap-2 mb-4 md:mb-0">
-					<div class="w-6 h-6 text-gray-300">
-						<svg viewBox="0 0 24 24" fill="currentColor" class="w-full h-full">
-							<path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM12 22C10.9 22 10 21.1 10 20C10 18.9 10.9 18 12 18C13.1 18 14 18.9 14 20C14 21.1 13.1 22 12 22ZM6 12C6 10.9 5.1 10 4 10C2.9 10 2 10.9 2 12C2 13.1 2.9 14 4 14C5.1 14 6 13.1 6 12ZM22 12C22 13.1 21.1 14 20 14C18.9 14 18 13.1 18 12C18 10.9 18.9 10 20 10C21.1 10 22 10.9 22 12ZM17.66 7.34C18.44 6.56 19.7 6.56 20.48 7.34C21.26 8.12 21.26 9.38 20.48 10.16C19.7 10.94 18.44 10.94 17.66 10.16C16.88 9.38 16.88 8.12 17.66 7.34ZM6.34 16.66C5.56 17.44 4.3 17.44 3.52 16.66C2.74 15.88 2.74 14.62 3.52 13.84C4.3 13.06 5.56 13.06 6.34 13.84C7.12 14.62 7.12 15.88 6.34 16.66ZM16.66 17.66C15.88 18.44 15.88 19.7 16.66 20.48C17.44 21.26 18.7 21.26 19.48 20.48C20.26 19.7 20.26 18.44 19.48 17.66C18.7 16.88 18.7 15.62 17.92 14.84L16.66 17.66ZM7.34 6.34C8.12 5.56 8.12 4.3 7.34 3.52C6.56 2.74 5.3 2.74 4.52 3.52C3.74 4.3 3.74 5.56 4.52 6.34C5.3 7.12 6.56 7.12 7.34 6.34Z" />
-						</svg>
-					</div>
-					<div>
-						<p>Copyright © 2025 UNMS Technologies Corp.</p>
-						<p>All rights reserved. Terms of Service & Privacy Policy.</p>
-					</div>
+			<div class="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-gray-100 text-xs text-gray-500">
+				<div class="mb-4 md:mb-0">
+					<p>© 2025 Stacks. All rights reserved.</p>
 				</div>
-				<div class="bg-gray-200 text-gray-600 px-3 py-1 rounded text-xs font-medium">
-					Status
+				<div class="flex items-center gap-4">
+					<span class="bg-green-100 text-green-700 px-3 py-1 rounded-full font-medium flex items-center gap-1">
+						<span class="w-2 h-2 rounded-full bg-green-500"></span>
+						All Systems Operational
+					</span>
 				</div>
 			</div>
 		</footer>
